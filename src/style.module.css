@@ -1,0 +1,55 @@
+body {
+  margin: 0;
+  font-family: sans-serif;
+  background-color: coral;
+}
+
+.header {
+  background-color: teal;
+  height: 50px;
+  padding: 20px;
+  text-align: center;
+  font-size: 2em;
+  color: white;
+}
+
+.TodoInput {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 50px;
+  width: 100%;
+  font-size: 1.5em;
+  border: none;
+  border-bottom: 1px solid whitesmoke;
+  text-align: center;
+  border-radius: 7px;
+}
+.todoform {
+  width: 50%;
+  margin: auto;
+  margin-top: 20px;
+}
+.submitbuttonform {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 50px;
+}
+
+.submitbutton {
+  font-size: 1.5em;
+  border-radius: 7px;
+}
+
+.todolistform {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 25px;
+}
+
+.todolist {
+  color: black;
+  cursor: pointer;
+}
