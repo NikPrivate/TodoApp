@@ -1,13 +1,12 @@
 body {
   margin: 0;
-  font-family: sans-serif;
-  background-color: coral;
+  font-family: cursive;
+  background-color: rgb(32, 32, 38);
 }
 
 .header {
-  background-color: teal;
   height: 50px;
-  padding: 20px;
+  padding-top: 200px;
   text-align: center;
   font-size: 2em;
   color: white;
@@ -24,6 +23,9 @@ body {
   border-bottom: 1px solid whitesmoke;
   text-align: center;
   border-radius: 7px;
+  border: none;
+  outline: none;
+  font-family: cursive;
 }
 .todoform {
   width: 50%;
@@ -35,11 +37,19 @@ body {
   align-items: center;
   justify-content: center;
   height: 50px;
+  padding-top: 25px;
 }
 
 .submitbutton {
   font-size: 1.5em;
   border-radius: 7px;
+  cursor: pointer;
+  font-family: cursive;
+}
+
+.submitbutton:hover {
+  background-color: rgb(24, 20, 20);
+  color: whitesmoke;
 }
 
 .todolistform {
@@ -50,6 +60,11 @@ body {
 }
 
 .todolist {
-  color: black;
+  padding-top: 50px;
+  color: whitesmoke;
   cursor: pointer;
+}
+
+.todolist:hover {
+  color: red;
 }
